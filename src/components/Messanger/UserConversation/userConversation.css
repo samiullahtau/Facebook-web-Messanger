@@ -1,0 +1,8 @@
+.userconversation{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100vh;
+    border: 1px solid transparent;
+    border-color: rgba(144, 144, 144, 0.679);
+}
