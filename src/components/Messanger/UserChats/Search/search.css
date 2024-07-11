@@ -1,0 +1,32 @@
+.search{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 40px;
+    background-image: url("../../../../assets/Icons/SearchGray.ico");
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-position-x: 10px;
+    background-position-y: 5px;
+    border: 1px solid #555555;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.input{
+    display: flex;
+    margin-left: 50px;
+    width: 450px;
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    border-color: transparent;
+    outline:0;
+    
+}
+.input:focus{
+    border: none;
+    border-radius: 0px 50px 50px 0px;
+    border-color: transparent;
+}
+
