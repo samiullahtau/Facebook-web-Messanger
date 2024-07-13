@@ -3,7 +3,7 @@ import Create from "../../../assets/Icons/Create.ico"
 import Search from "./Search/Search"
 import Friends from "./Friends/Friends"
 
-const UserChats = () => {
+const UserChats = ({ setSelectedFriend }) => {
     return (
         <div className="userchats">
             <div className="chatheader">
@@ -19,11 +19,8 @@ const UserChats = () => {
             <div className="friends">
                 <button className="btn" type="button">Inbox</button>
                 <button className="btn" type="button">Communites</button>
-
             </div>
-
-            <Friends />
-
+            <Friends setSelectedFriend={setSelectedFriend} />
         </div>
     )
 }
