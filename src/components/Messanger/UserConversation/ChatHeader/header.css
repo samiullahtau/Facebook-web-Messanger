@@ -1,0 +1,28 @@
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 126px;
+    box-shadow: 0 4px 2px -2px gray;
+}
+.friend{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    margin-left: 20px;
+}
+.profileimage{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.iconsrow{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    margin-right: 20px;
+}
