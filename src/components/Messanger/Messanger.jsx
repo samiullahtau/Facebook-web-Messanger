@@ -21,7 +21,7 @@ const Messanger = () => {
         <div className="messanger">
             <UserChats setSelectedFriend={setSelectedFriend} />
             <UserConversation conversation={conversation} />
-            <UserProfile />
+            <UserProfile data={conversation} />
         </div>
     )
 }

@@ -4,6 +4,7 @@ export const MessengerData = [
         username: 'John Doe',
         pictureUrl: 'https://randomuser.me/api/portraits/men/64.jpg',
         description: "Messanger Updated the security",
+        gender:"male",
         messages: [
             {
                 message: "Hi How are you?",
@@ -36,6 +37,7 @@ export const MessengerData = [
         username: 'Jane Smith',
         pictureUrl: 'https://randomuser.me/api/portraits/women/65.jpg',
         description: "Messanger Updated the security",
+        gender:"female",
         messages: [
             {
                 message: "Hey Jane, long time no see!",
@@ -68,6 +70,7 @@ export const MessengerData = [
         username: 'Sam Wilson',
         pictureUrl: 'https://randomuser.me/api/portraits/men/65.jpg',
         description: "Messanger Updated the security",
+        gender:"male",
         messages: [
             {
                 message: "Hi Sam, how's it going?",
@@ -100,6 +103,7 @@ export const MessengerData = [
         username: 'Emily Jones',
         pictureUrl: 'https://randomuser.me/api/portraits/women/63.jpg',
         description: "Messanger Updated the security",
+        gender:"female",
         messages: [
             {
                 message: "Hey Emily, how are things?",
@@ -132,6 +136,7 @@ export const MessengerData = [
         username: 'Michael Brown',
         pictureUrl: 'https://randomuser.me/api/portraits/men/60.jpg',
         description: "Messanger Updated the security",
+        gender:"male",
         messages: [
             {
                 message: "Hi Michael, how have you been?",
